@@ -6,7 +6,7 @@ const Product = ({ product }) => {
     <div className="w-[30rem] ml-[2rem] p-3 relative">
       <div className="relative">
         <img
-          src={product.image}
+          src={`${import.meta.env.VITE_API_URL}${product.image}`}
           alt={product.name}
           className="w-[30rem] rounded"
         />
