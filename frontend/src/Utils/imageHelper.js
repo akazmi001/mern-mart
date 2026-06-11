@@ -1,8 +1,8 @@
-export const getImageUrl = (image) => {
-  if (!image) return "";
+export const getImageUrl = (imagePath) => {
+  if (!imagePath) return "";
 
-  // Already full URL (Cloudinary etc.)
-  if (image.startsWith("http")) return image;
+  const base = import.meta.env.VITE_API_URL.replace(/\/$/, "");
+  const path = imagePath.startsWith("/") ? imagePath : `/${imagePath}`;
 
-  return `${import.meta.env.VITE_API_URL}${image}`;
+  return `${base}${path}`;
 };
