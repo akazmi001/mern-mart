@@ -104,4 +104,5 @@ Contributions are welcome! Feel free to fork and submit a PR.
 ## 👨‍💻 Author
 
 Mohammad Anas
-GitHub: https://github.com/akazmi001/mern-mart
+
+GitHub: https://github.com/akazmi001
