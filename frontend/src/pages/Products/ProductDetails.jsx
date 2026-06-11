@@ -20,7 +20,7 @@ import HeartIcon from "./HeartIcon";
 import Ratings from "./Ratings";
 import ProductTabs from "./ProductTabs";
 import { addToCart } from "../../redux/features/cart/cartSlice";
-import { getImageUrl } from "../../utils/imageHelper";
+import { getImageUrl } from "../../Utils/imageHelper";
 const ProductDetails = () => {
   const { id: productId } = useParams();
   const navigate = useNavigate();

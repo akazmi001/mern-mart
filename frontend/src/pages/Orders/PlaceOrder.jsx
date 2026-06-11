@@ -7,7 +7,7 @@ import ProgressSteps from "../../components/ProgressSteps";
 import Loader from "../../components/Loader";
 import { useCreateOrderMutation } from "../../redux/api/orderApiSlice";
 import { clearCartItems } from "../../redux/features/cart/cartSlice";
-import { getImageUrl } from "../../utils/imageHelper";
+import { getImageUrl } from "../../Utils/imageHelper";
 const PlaceOrder = () => {
   const navigate = useNavigate();
 

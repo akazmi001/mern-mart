@@ -7,7 +7,7 @@ import {
 import { useFetchCategoriesQuery } from "../../redux/api/categoryApiSlice";
 import { toast } from "react-toastify";
 import AdminMenu from "./AdminMenu";
-import { getImageUrl } from "../../utils/imageHelper";
+import { getImageUrl } from "../../Utils/imageHelper";
 const ProductList = () => {
   const [image, setImage] = useState("");
   const [name, setName] = useState("");

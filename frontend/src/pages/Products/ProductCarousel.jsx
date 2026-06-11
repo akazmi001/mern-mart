@@ -11,7 +11,7 @@ import {
   FaStar,
   FaStore,
 } from "react-icons/fa";
-import { getImageUrl } from "../../utils/imageHelper";
+import { getImageUrl } from "../../Utils/imageHelper";
 const ProductCarousel = () => {
   const { data: products, isLoading, error } = useGetTopProductsQuery();
 

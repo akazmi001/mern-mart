@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import HeartIcon from "./HeartIcon";
-import { getImageUrl } from "../../utils/imageHelper";
+import { getImageUrl } from "../../Utils/imageHelper";
 const SmallProduct = ({ product }) => {
   return (
     <div className="w-[20rem] ml-[2rem] p-3">
