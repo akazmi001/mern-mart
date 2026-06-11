@@ -14,8 +14,7 @@ A full-featured **E-Commerce Web Application** built using the **MERN Stack (Mon
 
 ### 🏠 Home Page
 
-![Home](<img width="945" height="401" alt="Home-MERNmart" src="https://github.com/user-attachments/assets/9b609b52-f2e8-45db-8533-c1928cdf415b" />
-)
+![Home](uploads/Home-MERNmart.png)
 
 
 ## ⚙️ Tech Stack
